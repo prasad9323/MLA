@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="false"
+    tools:context="com.essentialapps.locationalarm3.IntroAct"
+    android:animateLayoutChanges="true"
+    >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="@color/black"
+        />
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignTop="@+id/button2"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="40dp"
+        android:layout_alignBottom="@+id/pager"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

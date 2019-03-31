@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <Button
+        android:layout_width="60pt"
+        android:layout_height="60pt"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20pt"
+        android:background="@drawable/round_button"
+        android:gravity="center_vertical|center_horizontal"
+        android:id="@+id/rbtn1"
+        />
+
+    <Button
+        android:layout_width="60pt"
+        android:layout_height="60pt"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20pt"
+        android:background="@drawable/round_button"
+        android:gravity="center_vertical|center_horizontal"
+        android:id="@+id/rbtn3"
+        />
+
+    <Button
+        android:layout_width="60pt"
+        android:layout_height="60pt"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20pt"
+        android:background="@drawable/round_button3"
+        android:gravity="center_vertical|center_horizontal"
+        android:text=""
+        android:textColor="#000000"
+        android:id="@+id/rbtn4"
+        />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10pt"
+        android:text="Reached!"
+        android:textColor="#ff0000"
+        android:textSize="30pt" />
+
+    <Button
+        android:layout_width="30pt"
+        android:layout_height="30pt"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35pt"
+        android:background="@drawable/ic_cancel"
+        android:gravity="center_vertical|center_horizontal"
+        android:text=""
+        android:textColor="#000000"
+        android:id="@+id/rbtn2"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=""
+        android:textColor="@color/colorWhite"
+        android:id="@+id/reminderview"
+        android:layout_marginLeft="10pt"
+        android:layout_marginRight="10pt"
+        android:layout_marginBottom="40pt"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>

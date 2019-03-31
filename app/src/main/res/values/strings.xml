@@ -1,0 +1,328 @@
+<resources>
+    <string name="app_name">Mumbai Local Alarm</string>
+    <string name="title_activity_splash">Mumbai Local Alarm</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_faq">Frequently Asked Questions</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3194793315879766/3092078734</string>
+    <string name="dev_email_id">essentialappdeveloper@gmail.com</string>
+    <string name="title_activity_alarm">Alarm</string>
+    <string name="ans_main">Since the app is totally depending on
+        phone\'s internet connection,it will fail to work if internet
+        connectivity is lost,or data roaming is disabled,or if the location service is turned off, or if the device\'s location can\'t be found</string>
+    <string name="que_main">*This app fails to work sometimes</string>
+    <string name="que_1">1)Why enabling both internet and location required?</string>
+    <string name="ans_1">This app works by using location services to determine where you are, and Internet is required to pick your location as you move.</string>
+    <string name="que_2">2)Why does it require to use &quot;High accuracy&quot; in location settings?</string>
+    <string name="ans_2">Location is provided by any of the three options in location menu, but to ensure accurate working this app,
+        it is required to have the best location provided, as  using only GPS or Network may not be able to provide most accurate location.</string>
+    <string name="que_4">4)What are the recommended settings to use this app</string>
+    <string name="ans_4_1">1.Turn on mobile data</string>
+    <string name="ans_4_2">2.Turn on location in settings</string>
+    <string name="ans_4_3">3.Set location mode to high accuracy.</string>
+    <string name="que_5">5)How do I use this app?</string>
+    <string name="ans_5_1">1.Apply the recommended settings as shown in  above question no.4</string>
+    <string name="ans_5_2">2.Press \'Add alarm\' in main screen of the app</string>
+    <string name="ans_5_3">3.Select the station or map location where you are going and press \'Add alert(Done button)\'</string>
+    <string name="que_8">8)App shows "Location not available even when it is enabled?</string>
+    <string name="ans_8">Disable the location reporting and then enable it again.</string>
+    <string name="que_9">9)Why high battery usage in location access?</string>
+    <string name="ans_9">App relies on GPS, which works even when there is no network connection.Hence high battery usage.A power saving mode will be available in future versions.</string>
+
+    <string-array name="Zone">
+        <item>All</item>
+        <item>Central</item>
+        <item>Western</item>
+        <item>Harbour</item>
+        <item>Trans - Harbour</item>
+    </string-array>
+    <string-array name="All">
+
+        <item>Airoli	</item>
+        <item>Ambernath</item>
+        <item>Ambivli	</item>
+        <item>Andheri	</item>
+        <item>Asangaon</item>
+        <item>Atgaon	</item>
+        <item>Badlapur</item>
+        <item>Bamandongri	</item>
+        <item>Bandra	</item>
+        <item>Bhandup	</item>
+        <item>Bhayandar		</item>
+        <item>Bhivpuri Road	</item>
+        <item>Bhiwandi	</item>
+        <item>Boisar	</item>
+        <item>Borivali	</item>
+        <item>Byculla	</item>
+        <item>CBD Belapur	</item>
+        <item>Charni Road</item>
+        <item>Chembur	</item>
+        <item>Chinchpokli</item>
+        <item>Chunabhatti</item>
+        <item>Churchgate</item>
+        <item>Cotton Green</item>
+        <item>Currey Road	</item>
+        <item>Dadar		</item>
+        <item>Dahanu </item>
+        <item>Dahisar		</item>
+        <item>Dativali	</item>
+        <item>Diva Junction</item>
+        <item>Dockyard Road</item>
+        <item>Dolavli	</item>
+        <item>Dombivli</item>
+        <item>Dronagiri</item>
+        <item>Elphinstone Road</item>
+        <item>Ghansoli	</item>
+        <item>Ghatkopar</item>
+        <item>Goregaon	</item>
+        <item>Govandi	</item>
+        <item>Grant Road</item>
+        <item>GTB nagar </item>
+        <item>Jogeshwari</item>
+        <item>Juchandra</item>
+        <item>Juinagar	</item>
+        <item>Kalamboli</item>
+        <item>Kalwa	</item>
+        <item>Kalyan	</item>
+        <item>Kaman Road	</item>
+        <item>Kandivali</item>
+        <item>Kanjurmarg</item>
+        <item>Karjat	</item>
+        <item>Kasara	</item>
+        <item>Kelavli	</item>
+        <item>Kelve Road</item>
+        <item>Khadavli	</item>
+        <item>Khandeshwar	</item>
+        <item>Khar Road	</item>
+        <item>Kharbao	</item>
+        <item>Khardi	</item>
+        <item>Kharghar	</item>
+        <item>Khopoli	</item>
+        <item>Kings Circle	</item>
+        <item>Kopar	</item>
+        <item>Kopar Khairane</item>
+        <item>Kurla	</item>
+        <item>Lower Parel	</item>
+        <item>Lowjee	</item>
+        <item>Mahalaxmi	</item>
+        <item>Mahim	</item>
+        <item>Malad	</item>
+        <item>Mankhurd	</item>
+        <item>Mansarovar	</item>
+        <item>Marine Lines	</item>
+        <item>Masjid	</item>
+        <item>Matunga	</item>
+        <item>Matunga Road	</item>
+        <item>Mumbai Central	</item>
+        <item>Mumbai CST</item>
+        <item>Mira Road	</item>
+        <item>Mumbra	</item>
+        <item>Mulund	</item>
+        <item>Nahur	</item>
+        <item>Naigaon	</item>
+        <item>Nalasopara	</item>
+        <item>Neral	</item>
+        <item>Nerul	</item>
+        <item>Navade Road	</item>
+        <item>Nilaje	</item>
+        <item>Oshiwara	</item>
+        <item>Palghar	</item>
+        <item>Palasdari	</item>
+        <item>Panvel	</item>
+        <item>Parel	</item>
+        <item>Rabale	</item>
+        <item>Reay road </item>
+        <item>Roha	</item>
+        <item>Sandhurst Road</item>
+        <item>Sanpada	</item>
+        <item>Santa Cruz	</item>
+        <item>Seawoods–Darave	</item>
+        <item>Sewri </item>
+        <item>Saphale	</item>
+        <item>Sion	</item>
+        <item>Shahad	</item>
+        <item>Shelu	</item>
+        <item>Thane	</item>
+        <item>Thakurli	</item>
+        <item>Thansit	</item>
+        <item>Titwala	</item>
+        <item>Tilaknagar </item>
+        <item>Turbhe	</item>
+        <item>Ulhasnagar</item>
+        <item>Umbermali</item>
+        <item>Umroli	</item>
+        <item>Uran	</item>
+        <item>Vadala Road</item>
+        <item>Vaitarna	</item>
+        <item>Vangaon</item>
+        <item>Vangani	</item>
+        <item>Vasai Road	</item>
+        <item>Vashi	</item>
+        <item>Vasind	</item>
+        <item>Vidyavihar	</item>
+        <item>Vikhroli	</item>
+        <item>Vile Parle	</item>
+        <item>Virar	</item>
+        <item>Vithalwadi	</item>
+    </string-array>
+    <string-array name="central">
+        <item>Mumbai CST</item>
+        <item>Masjid	</item>
+        <item>Sandhurst Road</item>
+        <item>Byculla	</item>
+        <item>Chinchpokli</item>
+        <item>Currey Road	</item>
+        <item>Parel	</item>
+        <item>Dadar		</item>
+        <item>Matunga</item>
+        <item>Sion	</item>
+        <item>Kurla	</item>
+        <item>Vidyavihar	</item>
+        <item>Ghatkopar</item>
+        <item>Vikhroli	</item>
+        <item>Kanjurmarg</item>
+        <item>Bhandup	</item>
+        <item>Nahur	</item>
+        <item>Mulund	</item>
+        <item>Thane	</item>
+        <item>Kalwa	</item>
+        <item>Mumbra	</item>
+        <item>Diva Junction</item>
+        <item>Kopar	</item>
+        <item>Dombivli</item>
+        <item>Thakurli	</item>
+        <item>Kalyan	</item>
+        <item>Shahad	</item>
+        <item>Ambivli	</item>
+        <item>Titwala	</item>
+        <item>Khadavli	</item>
+        <item>Vasind	</item>
+        <item>Asangaon</item>
+        <item>Atgaon	</item>
+        <item>Khardi</item>
+        <item>Umbermali</item>
+        <item>Kasara	</item>
+        <item>Vithalwadi	</item>
+        <item>Ulhasnagar</item>
+        <item>Ambernath</item>
+        <item>Badlapur</item>
+        <item>Vangani	</item>
+        <item>Shelu	</item>
+        <item>Neral	</item>
+        <item>Bhivpuri Road	</item>
+        <item>Karjat	</item>
+        <item>Palasdari	</item>
+        <item>Kelavli	</item>
+        <item>Dolavli	</item>
+        <item>Lowjee	</item>
+        <item>Khopoli	</item>
+
+    </string-array>
+    <string-array name="western">
+        <item>Churchgate</item>
+        <item>Marine Lines	</item>
+        <item>Charni Road</item>
+        <item>Grant Road</item>
+        <item>Mumbai Central	</item>
+        <item>Mahalaxmi	</item>
+        <item>Lower Parel	</item>
+        <item>Elphinstone Road</item>
+        <item>Dadar		</item>
+        <item>Matunga Road	</item>
+        <item>Mahim	</item>
+        <item>Bandra	</item>
+        <item>Khar Road	</item>
+        <item>Santa Cruz	</item>
+        <item>Vile Parle	</item>
+        <item>Andheri	</item>
+        <item>Jogeshwari</item>
+        <item>Goregaon	</item>
+        <item>Malad	</item>
+        <item>Kandivali</item>
+        <item>Borivali	</item>
+        <item>Dahisar		</item>
+        <item>Mira Road	</item>
+        <item>Bhayandar		</item>
+        <item>Naigaon	</item>
+        <item>Vasai Road	</item>
+        <item>Nalasopara	</item>
+        <item>Virar	</item>
+        <item>Vaitarna	</item>
+        <item>Saphale	</item>
+        <item>Kelve Road</item>
+        <item>Palghar	</item>
+        <item>Umroli	</item>
+        <item>Boisar	</item>
+        <item>Vangaon</item>
+        <item>Dahanu </item>
+    </string-array>
+    <string-array name="transharbour">
+        <item>Thane	</item>
+        <item>Airoli	</item>
+        <item>Rabale	</item>
+        <item>Ghansoli	</item>
+        <item>Kopar Khairane</item>
+        <item>Turbhe	</item>
+        <item>Sanpada	</item>
+        <item>Vashi	</item>
+        <item>Juinagar	</item>
+        <item>Nerul	</item>
+        <item>Seawoods–Darave	</item>
+        <item>CBD Belapur	</item>
+        <item>Kharghar	</item>
+        <item>Mansarovar	</item>
+        <item>Khandeshwar	</item>
+        <item>Panvel	</item>
+    </string-array>
+    <string-array name="harbour">
+        <item>Mumbai CST</item>
+        <item>Masjid</item>
+        <item>Sandhurst Road</item>
+        <item>Dockyard Road</item>
+        <item>Reay road </item>
+        <item>Cotton Green</item>
+        <item>Sewri </item>
+        <item>Vadala Road</item>
+        <item>Kings Circle	</item>
+        <item>Mahim	</item>
+        <item>Bandra	</item>
+        <item>Khar Road	</item>
+        <item>Santa Cruz	</item>
+        <item>Vile Parle	</item>
+        <item>Andheri	</item>
+        <item>GTB nagar </item>
+        <item>Chunabhatti</item>
+        <item>Kurla	</item>
+        <item>Tilaknagar </item>
+        <item>Chembur	</item>
+        <item>Govandi	</item>
+        <item>Mankhurd	</item>
+        <item>Vashi	</item>
+        <item>Sanpada	</item>
+        <item>Juinagar	</item>
+        <item>Nerul	</item>
+        <item>Seawoods–Darave	</item>
+        <item>CBD Belapur	</item>
+        <item>Kharghar	</item>
+        <item>Mansarovar	</item>
+        <item>Khandeshwar	</item>
+        <item>Panvel	</item>
+    </string-array>
+
+    <string name="api_key">AIzaSyBRdttbqt7IBnf4nPusSgmWxpK4DhBg-t4</string>
+
+    <string name="title_activity_showmail">Showmail</string>
+    <string name="add_new_alert">Add new alarm</string>
+    <string name="alert_active_for">Alarm set for</string>
+    <string name="cancel">Cancel</string>
+    <string name="location_avail">Location available (Prefer high accuracy)</string>
+    <string name="int_avail">Internet available</string>
+    <string name="enable_loc">Enable Location</string>
+    <string name="select_line">Select line</string>
+    <string name="select_station">Select station</string>
+    <string name="reminder_text">Reminder text (Optional)</string>
+    <string name="or">Or</string>
+    <string name="pick_from_map">Pick from map</string>
+    <string name="dev_mail_id_text">Developer email id:</string>
+    <string name="title_activity_temp">Temp</string>
+
+</resources>
